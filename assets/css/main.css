@@ -1598,6 +1598,94 @@ input, select, textarea {
 				#main article .close:active:before {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
+				/*SERVICES INJECTION*/
+				#main article .pricing-header {
+					padding: 20px;
+				}
+		
+				#main article .pricing-header h1 {
+					margin: 0;
+					font-size: 2.5rem;
+				}
+		
+				#main article .pricing-header p {
+					margin-top: 10px;
+					font-size: 1rem;
+					color: #ccc;
+				}
+		
+				#main article .pricing-container {
+					display: flex;
+					justify-content: center;
+					flex-wrap: wrap;
+					gap: 20px;
+					padding: 20px;
+				}
+		
+				#main article .pricing-card {
+					background-color: #fff;
+					color: #000;
+					border-radius: 8px;
+					width: 250px;
+					padding: 20px;
+					box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+				}
+		
+				#main article .pricing-card h2 {
+					margin: 0;
+					font-size: 1.5rem;
+					color: #4a4458;
+				}
+		
+				#main article .pricing-card h3 {
+					margin: 15px 0;
+					font-size: 2rem;
+					color: #4a4458;
+				}
+		
+				#main article .pricing-card p {
+					font-size: 0.9rem;
+					color: #555;
+				}
+		
+				#main article .pricing-card ul {
+					list-style: none;
+					padding: 0;
+					margin: 15px 0;
+				}
+		
+				#main article .pricing-card ul li {
+					margin: 10px 0;
+				}
+		
+				#main article .pricing-card .btn {
+					display: inline-block;
+					margin-top: 15px;
+					padding: 10px 20px;
+					border: none;
+					border-radius: 4px;
+					background-color: #4a4458;
+					color: #fff;
+					text-decoration: none;
+					font-weight: bold;
+					cursor: pointer;
+				}
+		
+				#main article .pricing-card:nth-child(1) {
+					background-color: #e4d5f5;
+				}
+		
+				#main article .pricing-card:nth-child(2) {
+					background-color: #a8e6cf;
+				}
+		
+				#main article .pricing-card:nth-child(3) {
+					background-color: #dcedf9;
+				}
+		
+				#main article .pricing-card:nth-child(4) {
+					background-color: #ffd5b4;
+				}
 
 		@media screen and (max-width: 736px) {
 
