@@ -1599,21 +1599,7 @@ input, select, textarea {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 				/*SERVICES INJECTION*/
-				#main article .pricing-header {
-					padding: 20px;
-				}
-		
-				#main article .pricing-header h1 {
-					margin: 0;
-					font-size: 2.5rem;
-				}
-		
-				#main article .pricing-header p {
-					margin-top: 10px;
-					font-size: 1rem;
-					color: #ccc;
-				}
-		
+				
 				#main article .pricing-container {
 					display: flex;
 					justify-content: center;
