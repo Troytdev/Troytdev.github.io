@@ -1610,7 +1610,7 @@ input, select, textarea {
 		
 				#main article .pricing-card {
 					background-color: #fff;
-					color: #000;
+					color: #fff;
 					border-radius: 8px;
 					width: 250px;
 					padding: 20px;
@@ -1619,19 +1619,19 @@ input, select, textarea {
 		
 				#main article .pricing-card h2 {
 					margin: 0;
-					font-size: 1.1rem;
-					color: #4a4458;
+					font-size: 1.4rem;
+					color: #fff;
 				}
 		
 				#main article .pricing-card h3 {
 					margin: 15px 0;
 					font-size: 1.5rem;
-					color: #4a4458;
+					color: #fff;
 				}
 		
 				#main article .pricing-card p {
 					font-size: 0.9rem;
-					color: #555;
+					color: #fff;
 				}
 		
 				#main article .pricing-card ul {
@@ -1658,19 +1658,19 @@ input, select, textarea {
 				}
 		
 				#main article .pricing-card:nth-child(1) {
-					background-color: #0b4a84;
+					background-color: #3c80bf;
 				}
 		
 				#main article .pricing-card:nth-child(2) {
-					background-color: #0b4a84;
+					background-color: #949ca4;
 				}
 		
 				#main article .pricing-card:nth-child(3) {
-					background-color: #0b4a84;
+					background-color: #949ca4;
 				}
 		
 				#main article .pricing-card:nth-child(4) {
-					background-color: #0b4a84;
+					background-color: #3c80bf;
 				}
 
 		@media screen and (max-width: 736px) {
