@@ -1619,13 +1619,13 @@ input, select, textarea {
 		
 				#main article .pricing-card h2 {
 					margin: 0;
-					font-size: 1.5rem;
+					font-size: 1.1rem;
 					color: #4a4458;
 				}
 		
 				#main article .pricing-card h3 {
 					margin: 15px 0;
-					font-size: 2rem;
+					font-size: 1.5rem;
 					color: #4a4458;
 				}
 		
@@ -1658,19 +1658,19 @@ input, select, textarea {
 				}
 		
 				#main article .pricing-card:nth-child(1) {
-					background-color: #e4d5f5;
+					background-color: #0b4a84;
 				}
 		
 				#main article .pricing-card:nth-child(2) {
-					background-color: #a8e6cf;
+					background-color: #0b4a84;
 				}
 		
 				#main article .pricing-card:nth-child(3) {
-					background-color: #dcedf9;
+					background-color: #0b4a84;
 				}
 		
 				#main article .pricing-card:nth-child(4) {
-					background-color: #ffd5b4;
+					background-color: #0b4a84;
 				}
 
 		@media screen and (max-width: 736px) {
