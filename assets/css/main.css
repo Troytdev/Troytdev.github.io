@@ -1609,7 +1609,7 @@ input, select, textarea {
 				}
 		
 				#main article .pricing-card {
-					/*background-color: #fff;*/
+					background-color: #fff;
 					order:0;
 					color: #fff;
 					border-radius: 8px;
@@ -1663,7 +1663,7 @@ input, select, textarea {
 					font-weight: bold;
 					cursor: pointer;
 				}
-				/*
+				
 				#main article .pricing-card:nth-child(1) {
 					background-color: #3c80bf;
 				}
@@ -1673,12 +1673,12 @@ input, select, textarea {
 				}
 		
 				#main article .pricing-card:nth-child(3) {
-					background-color: #949ca4;
+					background-color: #3c80bf;
 				}
 		
 				#main article .pricing-card:nth-child(4) {
-					background-color: #3c80bf;
-				}*/
+					background-color: #949ca4;
+				}
 
 		@media screen and (max-width: 736px) {
 
