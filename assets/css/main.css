@@ -1628,11 +1628,12 @@ input, select, textarea {
 					margin: 15px 0;
 					font-size: 1.5rem;
 					color: #fff;
+					text-decoration: underline dotted white;
 				}
 
 				#main article .pricing-card h4 {
 					margin: 0;
-					font-size: .7rem;
+					font-size: .5rem;
 					color: #fff;
 				}
 		
@@ -1657,7 +1658,7 @@ input, select, textarea {
 					padding: 10px 20px;
 					border: none;
 					border-radius: 4px;
-					background-color: #4a4458;
+					background-color:#77521e /*#4a4458*/;
 					color: #fff;
 					text-decoration: none;
 					font-weight: bold;
