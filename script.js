@@ -16,18 +16,18 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Close modal
-    closeModal.addEventListener("click", () => {
-      modal.style.display = "none";
-      vimeoPlayer.src = ""; // Stop the video
-      window.location.hash = "#Projects"; // Return to the "Projects" tab
-    });
+    const closeVideoModal = () => {
+        modal.style.display = "none";
+        vimeoPlayer.src = ""; // Stop the video
+        history.pushState(null, null, "#Projects"); // Prevent navigation to homepage
+      };
+
+      closeModal.addEventListener("click", closeVideoModal);
 
     // Close modal when clicking outside content
     modal.addEventListener("click", event => {
-      if (event.target === modal) {
-        modal.style.display = "none";
-        vimeoPlayer.src = ""; // Stop the video
-        window.location.hash = "#Projects"; // Return to the "Projects" tab
+        if (event.target === modal) {
+          closeVideoModal();
       }
     });
   });
