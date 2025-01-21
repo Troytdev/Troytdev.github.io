@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     closeModal.addEventListener("click", () => {
       modal.style.display = "none";
       vimeoPlayer.src = ""; // Stop the video
+      window.location.hash = "#Projects"; // Return to the "Projects" tab
     });
 
     // Close modal when clicking outside content
@@ -26,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (event.target === modal) {
         modal.style.display = "none";
         vimeoPlayer.src = ""; // Stop the video
+        window.location.hash = "#Projects"; // Return to the "Projects" tab
       }
     });
   });
