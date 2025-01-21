@@ -1705,7 +1705,7 @@ input, select, textarea {
 			}
 
 		}
-		
+
 /* Modal Overlay */
 .modal {
 	display: none; /* Hidden by default */
@@ -1735,6 +1735,15 @@ input, select, textarea {
 	width: 100%;
 	height: 450px;
 	border: none;
+  }
+
+  /* Modal text styles */
+.modal-text {
+	margin-top: 20px;
+	color: #ccc; /* Light text color to match a dark theme */
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
   }
   
   /* Close Button */
