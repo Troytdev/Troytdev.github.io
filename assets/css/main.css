@@ -1747,7 +1747,7 @@ input, select, textarea {
 	text-align: center;
   }
   
-  /* Modal Close Button
+  /* Modal Close Button*/
   .close {
 	position: absolute;
 	top: 15px;
@@ -1763,7 +1763,7 @@ input, select, textarea {
   .close:hover {
 	background-color: #666;
   }
-*/
+
 /* Footer */
 
 	#footer {
