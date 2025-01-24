@@ -1748,7 +1748,7 @@ input, select, textarea {
   }
   
   /* Modal Close Button*/
-  .modclose {
+  .close {
 	position: absolute;
 	top: 15px;
 	right: 15px;
@@ -1760,7 +1760,7 @@ input, select, textarea {
 	padding: 5px 10px;
 	border-radius: 5px;
   }
-  .modclose:hover {
+  .close:hover {
 	background-color: #666;
   }
 
