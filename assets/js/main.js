@@ -299,10 +299,11 @@
 						});*/
 						$('<div class="close">Close</div>')
 						.appendTo($this)
-						.on('click', function() {
-							// Keep the #Projects hash to stay on the same tab.
-							location.hash = '#Projects';
+						.on('click', function(event) {
+							event.preventDefault(); // Prevent default hash behavior
+							$this.hide(); // Hide the current article/modal
 						});
+				
 
 				// Prevent clicks from inside article from bubbling.
 					$this.on('click', function(event) {
