@@ -1800,3 +1800,8 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		.foot-link {
+			list-style: none;
+			display: inline-block;
+		}
