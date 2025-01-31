@@ -1803,9 +1803,11 @@ input, select, textarea {
 
 		ul.foot-link {
 			list-style: none;
-			display: flex;
+			margin: 0;
+			padding: 0;
+			display: inline-block;
 		}
 
 		ul.foot-link li {
-			margin-right: 10px;
+			margin-right:10px;
 		}
