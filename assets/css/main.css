@@ -1801,10 +1801,13 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		.foot-link {
+		ul.foot-link {
 			list-style: none;
-			display: inline-block;
 			margin: 0;
 			padding: 0;
 			display: flex;
+		}
+
+		ul.foot-link li {
+			margin-right: 10px;
 		}
