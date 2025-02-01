@@ -1612,9 +1612,9 @@ input, select, textarea {
 				}
 		
 				#main article .pricing-card {
-					background-color: #fff;
+					/*background-color: #fff;*/
 					order:0;
-					color: #fff;
+					/*color: #fff;*/
 					border-radius: 8px;
 					width: 250px;
 					padding: 20px;
