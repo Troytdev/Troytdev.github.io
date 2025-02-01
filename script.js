@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const videoLinks = document.querySelectorAll(".video-link");
   const modal = document.getElementById("video-modal");
-  const closeModal = modal.querySelector(".modal-close");
+  const closeModal = modal.querySelector(".close");
   const vimeoPlayer = document.getElementById("vimeo-player");
 
   // Event listener for video links
