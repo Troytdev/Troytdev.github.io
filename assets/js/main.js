@@ -292,10 +292,17 @@
 				var $this = $(this);
 
 				// Close.
-					$('<div class="close">Close</div>')
+					/*$('<div class="close">Close</div>')
 						.appendTo($this)
 						.on('click', function() {
 							location.hash = '';
+						});*/
+
+						$('<div class="close">Close</div>')
+						.appendTo($this)
+						.on('click', function(event) {
+							event.preventDefault(); // Prevent default hash behavior
+							$this.hide(); // Hide the current article/modal
 						});
 
 				// Prevent clicks from inside article from bubbling.
