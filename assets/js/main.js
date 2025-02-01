@@ -299,11 +299,11 @@
 						});
 
 			    // Modal Close.
-					$('<div class="modal-close">Close</div>')
+					/*$('<div class="modal-close">Close</div>')
 					.appendTo($this)
 					.on('click', function() {
 						location.hash = '#Projects';
-					});
+					});*/
 
 				// Prevent clicks from inside article from bubbling.
 					$this.on('click', function(event) {
