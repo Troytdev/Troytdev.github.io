@@ -1622,14 +1622,14 @@ input, select, textarea {
 				}
 
 				#card-1 { background-color: #3c80bf; order: 1; }
-				#card-2 { background-color: #949ca4; order: 2; }
-				#card-3 { background-color: #3c80bf; order: 3; }
+				#card-2 { background-color: #3c80bf; order: 2; }
+				#card-3 { background-color: #949ca4; order: 3; }
 				#card-4 { background-color: #949ca4; order: 4; }
 
-				@media (max-width: 736px) {
+				@media (max-width: 480px) {
 					#card-1 { order: 3; background-color: #3c80bf; }
-					#card-2 { order: 1; background-color: #3c80bf; }
-					#card-3 { order: 4; background-color: #949ca4; }
+					#card-2 { order: 1; background-color: #949ca4; }
+					#card-3 { order: 4; background-color: #3c80bf; }
 					#card-4 { order: 2; background-color: #949ca4; }
 				}
 
