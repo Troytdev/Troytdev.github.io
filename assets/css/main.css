@@ -1800,17 +1800,6 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
-		/*
-		.foot-link {
-			list-style: none;
-			margin: 0;
-			padding: 0;
-			display: inline-block;
-		}
-
-		.foot-link li {
-			margin-right:10px;
-		}*/
 
 		ul.foot-link {
 			cursor: default;
