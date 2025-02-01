@@ -1755,7 +1755,7 @@ input, select, textarea {
 	padding: 5px 10px;
 	border-radius: 5px;
   }
-  .close:hover {
+  .modal-close:hover {
 	background-color: #666;
   }
 
