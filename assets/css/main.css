@@ -1293,6 +1293,7 @@ input, select, textarea {
 			}
 
 		#header .logo {
+			padding:5px;
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
