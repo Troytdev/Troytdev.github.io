@@ -1633,13 +1633,13 @@ input, select, textarea {
 
 		
 				#main article .pricing-card h2 {
-					font-variant-caps: unicase;
 					margin: 0;
 					font-size: 1.4rem;
 					color: #fff;
 				}
 		
 				#main article .pricing-card h3 {
+					font-variant-caps: unicase;
 					margin: 15px 0;
 					font-size: 1.5rem;
 					color: #fff;
