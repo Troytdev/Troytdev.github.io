@@ -898,13 +898,13 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
-		justify-content: center;
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
 	}
 
 		ul.icons li {
+			justify-content: center;
 			display: inline-block;
 			padding: 0 0.75em 0 0;
 		}
